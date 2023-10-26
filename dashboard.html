@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+	<p class="text-center"><img src="D:\Bootstrap\images\logo.jpeg"  width="220" height="150"></p>	
+	<div class="dropdown" style="float:right;">
+		<button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+			<span class="glyphicon glyphicon-user"></span>&emsp;Admin
+			<span class="caret"></span>
+		</button>
+		<ul class="dropdown-menu ">
+			<li class="active"><a href="#">Profile</a></li>
+			<li class="disabled"><a href="#">Edit Profile</a></li>
+			<li class="divider"></li>
+			<li ><a href="#">Setting</a></li>
+			<li><a href="#">LogOut</a></li>
+			
+		</ul>
+	</div>
+	
+<hr>
+	<a href="#" class="btn btn-primary glyphicon glyphicon-dashboard"  role="button">&emsp;Dashboard</a>
+	<a href="file:///D:/Bootstrap/Doctors.html" class="btn btn-primary" target="_blank" role="button"><i class="fa fa-user-md"></i>&emsp;Doctor</a>
+	<a href="file:///D:/Bootstrap/Patients.html" class="btn btn-primary" target="_blank" role="button"><i class="fa fa-wheelchair"></i>&emsp;Patients</a>
+	<a href="file:///D:/Bootstrap/Appointments.html" class="btn btn-primary glyphicon glyphicon-calendar" target="_blank" role="button">&emsp;Appointments</a>
+	<a href="file:///D:/Bootstrap/Schedule.html" class="btn btn-primary glyphicon glyphicon-list-alt" target="_blank" role="button">&emsp;Doctor Schedule</a>
+	<a href="#department" class="btn btn-primary" role="button"><i class="fa fa-hospital-o"></i>&emsp;Departments</a>
+	
+	<hr>
+	<div class="row">
+		<div class="col-md-3" >
+			<img src="file:///D:/Bootstrap/A.jpeg" class="img-thumbnail">
+		</div>
+		<div class="col-md-3" >
+			<img src="file:///D:/Bootstrap/B.jpeg" class="img-thumbnail">
+		</div>
+		<div class="col-md-3" >
+			<img src="file:///D:/Bootstrap/C.jpeg" class="img-thumbnail">
+		</div>
+		<div class="col-md-3" >
+			<img src="file:///D:/Bootstrap/D.jpeg" class="img-thumbnail">
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="col-md-6">
+	<h2 class="text-left" style="color: green;">Upcoming Appointments</h2></div>
+	<div class="col-md-6">
+		<a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-primary btn-sm" target="_blank" role="button">View All</a>
+	</div>
+</div>
+	<div class="row">
+		<div class="col-md-7">
+
+			<table class="table table-bordered table-striped">
+				<tr>
+					<th>Patient Name</th>
+					<th>Doctor</th>
+					<th>Check Up</th>
+					<th>Date</th>
+					<th>Time</th>
+					<th>Status</th>
+				</tr>
+				<tr>
+					<td>Siri</td>
+					<td>Manoj Kumar</td>
+					<td>Ortho</td>
+					<td>20-02-2022</td>
+					<td>12:00PM</td>
+					<td><a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-info btn-sm" target="_blank" role="button">Take up</a></td>
+				</tr>
+				<tr>
+					<td>Minal</td>
+					<td>Daniel</td>
+					<td>Dental</td>
+					<td>20-02-2022</td>
+					<td>12:50PM</td>
+					<td><a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-info btn-sm" target="_blank" role="button" href="">Take up</a></td>
+				</tr>
+				<tr>
+					<td>Riya</td>
+					<td>Manoj Kumar</td>
+					<td>Ortho</td>
+					<td>20-02-2022</td>
+					<td>2:00PM</td>
+					<td><a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-info btn-sm" target="_blank" role="button">Take up</a></td>
+				</tr>
+				<tr>
+					<td>Naveen</td>
+					<td>Daniel</td>
+					<td>Dental</td>
+					<td>20-02-2022</td>
+					<td>1:50PM</td>
+					<td><a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-info btn-sm" target="_blank" role="button">Take up</a></td>
+				</tr>
+				<tr>
+					<td>Raman</td>
+					<td>Manoj Kumar</td>
+					<td>Ortho</td>
+					<td>20-02-2022</td>
+					<td>1:15PM</td>
+					<td><a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Appointments.html" class="btn btn-info btn-sm" target="_blank" role="button">Take up</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-md-5">
+			<table class="table table-hover">
+				<tr>
+					<th>Doctors</th>
+					<th>Speciality</th>
+
+				</tr>
+				<tr>
+					<td>Manoj Kumar</td>
+					<td>Ortho</td>
+				</tr>
+				<tr>
+					<td>Daniel</td>
+					<td>Dental</td>
+				</tr>
+				<tr>
+					<td>John Beny</td>
+					<td>Skin</td>
+				</tr>
+				<tr>
+					<td>Richard Miles</td>
+					<td>Dental</td>
+
+				</tr>
+			</table>
+			<a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Doctors.html" class="btn btn-primary btn-block " target="_blank" role="button"> View All</a>
+		</div>
+	</div>
+	<br>
+	
+	<div class="row">
+		<div class="col-md-6">
+	<h4 class="text-left" style="color: red;">New Patients</h4></div>
+	<div class="col-md-6">
+		<a href="F:\2Year-TERM4-NOTEBOOK\Boostrap-CAP916\Hospital\Patients.html" class="btn btn-primary btn-sm" target="_blank" role="button">View All</a>
+	</div>
+</div>
+	<div class="row">
+		<div class="col-md-7">
+			<table class="table table-condensed table-striped">
+			<tr>
+			<td>John Doe</td>	
+<td><a href="#">[email protected]</a></td>
+<td>+1-202-555-0125</td>
+<td><button class="btn btn-warning">Fever</button></td>
+			</tr>
+			<tr>
+			<td>Villiam</td>	
+<td><a href="#">[email protected]</a></td>
+<td>+1-202-555-0106</td>
+<td><button class="btn btn-danger">Cancer</button></td>
+			</tr>
+			<tr>
+			<td>Martin</td>	
+<td><a href="#">[email protected]</a></td>
+<td>776-2323-89956</td>
+<td><button class=" btn btn-success">Covid</button></td>
+			</tr>
+			<tr>
+			<td>Riya</td>	
+<td><a href="#">[email protected]</a></td>
+<td>99-555-89325</td>
+<td><button class="btn btn-primary">Fever</button></td>
+			</tr>
+			<tr>
+			<td>Manak</td>	
+<td><a href="#">[email protected]</a></td>
+<td>89-555-85695</td>
+<td><button class="btn btn-info">Pain</button></td></tr>	
+		</table>
+		</div>
+		<div class="col-md-5" id="department">
+			<table class="table">
+				<tr ><h4>Hospital Departments</h4></tr>
+				<tr class="warning">
+					<td class="text-uppercase">
+						opd
+					</td>
+					<td >
+						16%
+					</td>
+				</tr>
+				<tr class="active">
+					<td class="text-uppercase">
+						new
+					</td>
+					<td >
+						71%
+					</td>
+				</tr>
+				<tr class="danger">
+					<td class="text-uppercase">
+						laboratory
+					</td>
+					<td >
+						82%
+					</td>
+				</tr>
+				<tr class="success">
+					<td class="text-uppercase">
+						treatment
+					</td>
+					<td >
+						67%
+					</td>
+				</tr>
+				<tr class="info">
+					<td class="text-uppercase">
+						discharge
+					</td>
+					<td >
+						30%
+					</td>
+				</tr>
+			</table>
+		</div></div>
+</div>
+</body>
+</html>
